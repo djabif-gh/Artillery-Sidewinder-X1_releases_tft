@@ -8,6 +8,7 @@
     #define STRING_ROTATE_UI              "回転UI"
     #define STRING_TERMINAL_ACK           "端末でACKを表示する"
     #define STRING_PERSISTENT_INFO        "永続的なステータス情報"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "ファイルビューアリストモード"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "ACK notification style"

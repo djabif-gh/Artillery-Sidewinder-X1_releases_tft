@@ -8,6 +8,7 @@
     #define STRING_ROTATE_UI              "Переворот"
     #define STRING_TERMINAL_ACK           "ACK терминала (C°)"
     #define STRING_PERSISTENT_INFO        "Нагрев в инфостроке"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "Файлы в режиме строк"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "ACK стиль уведомления"

@@ -8,6 +8,7 @@
     #define STRING_ROTATE_UI              "Döndür"
     #define STRING_TERMINAL_ACK           "Terminalde onay mesajları"
     #define STRING_PERSISTENT_INFO        "Kalıcı Durum Mesajı"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "Liste Görünümü"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "Onay mesajı stili"

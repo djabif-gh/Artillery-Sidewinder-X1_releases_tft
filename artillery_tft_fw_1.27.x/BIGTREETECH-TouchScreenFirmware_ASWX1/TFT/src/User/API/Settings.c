@@ -40,6 +40,7 @@ void infoSettingsReset(void)
   infoSettings.rotate_ui              = DISABLED;
   infoSettings.terminalACK            = DISABLED;
   infoSettings.persistent_info        = ENABLED;
+  infoSettings.avoid_octop_collisions = ENABLED;
   infoSettings.file_listmode          = ENABLED;
   infoSettings.files_sort_by          = SORT_DATE_NEW_FIRST;
   infoSettings.ack_notification       = ACK_NOTIFICATION_STYLE;

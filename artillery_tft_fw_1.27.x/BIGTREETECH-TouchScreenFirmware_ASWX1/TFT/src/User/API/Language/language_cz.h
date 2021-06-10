@@ -8,6 +8,7 @@
     #define STRING_ROTATE_UI              "Otočit UI"
     #define STRING_TERMINAL_ACK           "zobrazit ACK Terminálu"
     #define STRING_PERSISTENT_INFO        "Zobrazení stavových ikon"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "Soubory jako seznam"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "Styl oznámení ACK"

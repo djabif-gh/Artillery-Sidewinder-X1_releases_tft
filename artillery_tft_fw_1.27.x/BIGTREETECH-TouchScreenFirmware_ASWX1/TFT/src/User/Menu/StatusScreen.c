@@ -12,6 +12,8 @@
 #define SET_SPEEDMENUINDEX(x)
 #endif
 
+//static uint32_t lastTime = 0;
+
 const MENUITEMS StatusItems = {
   // title
   LABEL_READY,
@@ -250,8 +252,12 @@ static inline void toggleTool(void)
     drawTemperature();
 
     // gcode queries must be call after drawTemperature
-    coordinateQuery();
-    speedQuery();
+    if (infoSettings.avoid_octop_collisions != 1)
+    {
+      coordinateQuery();
+      speedQuery();
+    }
+
     ctrlFanQuery();
   }
 }

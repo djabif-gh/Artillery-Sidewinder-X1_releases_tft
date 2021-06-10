@@ -46,7 +46,8 @@ const char *const itemSortBy[SORT_BY_COUNT] =
 //
 typedef enum
 {
-  SKEY_TERMINAL_ACK = 0,
+  SKEY_AVOID_OCTOP_COLLISIONS = 0,
+  SKEY_TERMINAL_ACK,
   SKEY_PERSISTENT_INFO,
   SKEY_FILE_LIST_MODE,
   SKEY_FILE_SORT_BY,
@@ -99,6 +100,10 @@ void updateFeatureSettings(uint8_t item_index)
 
     case SKEY_PERSISTENT_INFO:
       infoSettings.persistent_info = (infoSettings.persistent_info + 1) % ITEM_TOGGLE_NUM;
+      break;
+
+    case SKEY_AVOID_OCTOP_COLLISIONS:
+      infoSettings.avoid_octop_collisions = (infoSettings.avoid_octop_collisions + 1) % ITEM_TOGGLE_NUM;
       break;
 
     case SKEY_FILE_LIST_MODE:
@@ -217,6 +222,10 @@ void loadFeatureSettings(LISTITEM * item, uint16_t item_index, uint8_t itemPos)
         item->icon = iconToggle[infoSettings.persistent_info];
         break;
 
+      case SKEY_AVOID_OCTOP_COLLISIONS:
+        item->icon = iconToggle[infoSettings.avoid_octop_collisions];
+        break;
+
       case SKEY_FILE_LIST_MODE:
         item->icon = iconToggle[infoSettings.file_listmode];
         break;
@@ -328,6 +337,7 @@ void menuFeatureSettings(void)
   //set item types
   //
   LISTITEM settingPage[SKEY_COUNT] = {
+    {CHARICON_TOGGLE_ON,   LIST_TOGGLE,        LABEL_AVOID_OCTOP_COLLISIONS, LABEL_BACKGROUND},
     {CHARICON_TOGGLE_ON,   LIST_TOGGLE,        LABEL_TERMINAL_ACK,           LABEL_BACKGROUND},
     {CHARICON_TOGGLE_ON,   LIST_TOGGLE,        LABEL_PERSISTENT_INFO,        LABEL_BACKGROUND},
     {CHARICON_TOGGLE_ON,   LIST_TOGGLE,        LABEL_FILE_LIST_MODE,         LABEL_BACKGROUND},

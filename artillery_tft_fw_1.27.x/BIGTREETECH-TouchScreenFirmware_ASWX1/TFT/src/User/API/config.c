@@ -605,6 +605,10 @@ void parseConfigKey(uint16_t index)
       infoSettings.persistent_info = getOnOff();
       break;
 
+    case C_INDEX_AVOID_OCTOP_COLLISIONS:
+      infoSettings.avoid_octop_collisions = getOnOff();
+      break;
+
     case C_INDEX_LIST_MODE:
       infoSettings.file_listmode = getOnOff();
       break;
