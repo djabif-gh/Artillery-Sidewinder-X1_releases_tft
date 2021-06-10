@@ -107,6 +107,7 @@ typedef struct
   uint8_t invert_axis[AXIS_NUM];
   uint8_t leveling_invert_y_axis;
   uint8_t persistent_info;
+  uint8_t avoid_octop_collisions;
   uint8_t file_listmode;
   uint8_t files_sort_by;
   uint8_t ack_notification;

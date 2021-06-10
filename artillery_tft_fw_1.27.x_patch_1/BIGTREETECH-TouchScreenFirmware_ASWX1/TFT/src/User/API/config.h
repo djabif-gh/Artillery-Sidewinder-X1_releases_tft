@@ -36,6 +36,7 @@ extern "C" {
 #define CONFIG_TERMINAL_ACK           "terminal_ack:"
 #define CONFIG_INVERT_AXIS            "invert_axis:"
 #define CONFIG_PERSISTENT_TEMP        "persistent_info:"
+#define CONFIG_AVOID_OCTOP_COLLISIONS "avoid_octop_collisions:"
 #define CONFIG_LIST_MODE              "files_list_mode:"
 #define CONFIG_FILES_SORT_BY          "files_sort_by:"
 #define CONFIG_ACK_NOTIFICATION       "ack_notification:"

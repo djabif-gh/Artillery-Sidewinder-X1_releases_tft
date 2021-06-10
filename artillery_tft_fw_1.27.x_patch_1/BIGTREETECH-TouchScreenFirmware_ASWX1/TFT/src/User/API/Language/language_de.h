@@ -7,6 +7,7 @@
     #define STRING_ROTATE_UI              "UI drehen"
     #define STRING_TERMINAL_ACK           "Zeige ACK im Terminal"
     #define STRING_PERSISTENT_INFO        "Persistente Status Info"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "Dateien als Liste"
     #define STRING_FILE_SORT_BY           "Sortiere Dateien nach"
     #define STRING_ACK_NOTIFICATION       "ACK - Stil"

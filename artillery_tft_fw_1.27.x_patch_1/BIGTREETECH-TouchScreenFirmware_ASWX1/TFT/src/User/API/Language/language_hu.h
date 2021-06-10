@@ -7,6 +7,7 @@
     #define STRING_ROTATE_UI              "Forgatás"
     #define STRING_TERMINAL_ACK           "ACK Megjelenítése"
     #define STRING_PERSISTENT_INFO        "Állandó állapotinfó"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "Fájlnéző listamód"
     #define STRING_FILE_SORT_BY           "Fájlok rendezése"
     #define STRING_ACK_NOTIFICATION       "ACK Értesítési stílus"

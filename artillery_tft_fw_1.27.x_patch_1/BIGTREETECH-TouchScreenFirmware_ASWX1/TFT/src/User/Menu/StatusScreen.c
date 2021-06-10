@@ -251,7 +251,12 @@ static inline void toggleTool(void)
 
     // gcode queries must be call after drawTemperature
     coordinateQuery(UPDATE_TOOL_TIME / 1000);
-    speedQuery();
+    
+    if (infoSettings.avoid_octop_collisions != 1)
+    {
+      speedQuery();
+    }
+    
     ctrlFanQuery();
   }
 }

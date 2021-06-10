@@ -7,6 +7,7 @@
     #define STRING_ROTATE_UI              "旋转界面"
     #define STRING_TERMINAL_ACK           "在G-code终端中显示温度信息"
     #define STRING_PERSISTENT_INFO        "顶部温度信息"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "文件浏览列表模式"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "ACK 弹窗类型"

@@ -7,6 +7,7 @@
     #define STRING_ROTATE_UI              "Obrni UI"
     #define STRING_TERMINAL_ACK           "Pokaži ACK v terminalu"
     #define STRING_PERSISTENT_INFO        "Stalno prikazuj status"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "Prikaz datotek v seznamu"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "ACK notification style"

@@ -7,6 +7,7 @@
     #define STRING_ROTATE_UI              "Ruota"
     #define STRING_TERMINAL_ACK           "Mostra ACK in console"
     #define STRING_PERSISTENT_INFO        "Mostra barra di stato"
+    #define STRING_AVOID_OCTOP_COLLISIONS "Avoid Octoprint collisions"
     #define STRING_FILE_LIST_MODE         "File in modalità lista"
     #define STRING_FILE_SORT_BY           "Sort files by"
     #define STRING_ACK_NOTIFICATION       "Tipo di popup"

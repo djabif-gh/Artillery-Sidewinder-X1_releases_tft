@@ -14,6 +14,7 @@ extern "C" {
 #define LANG_KEY_ROTATE_UI                    "label_rotate_ui:"
 #define LANG_KEY_TERMINAL_ACK                 "label_terminal_ack:"
 #define LANG_KEY_PERSISTENT_INFO              "label_persistent_info:"
+#define LANG_KEY_AVOID_OCTOP_COLLISIONS       "label_avoid_octop_collisions:"
 #define LANG_KEY_FILE_LIST_MODE               "label_file_list_mode:"
 #define LANG_KEY_FILE_SORT_BY                 "label_file_sort_by:"
 #define LANG_KEY_ACK_NOTIFICATION             "label_ack_notification:"
